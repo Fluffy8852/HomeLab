@@ -1,6 +1,9 @@
 # Tailscale LXC setup
+
 **Install-** `curl -fsSL https://tailscale.com/install.sh | sh`
-**start-** `sudo tailscale up`
+
+**Start-** `sudo tailscale up`
+
 **On the Proxmox host, edit the container config:** 
 `nano /etc/pve/lxc/<CTID>.conf`
 
